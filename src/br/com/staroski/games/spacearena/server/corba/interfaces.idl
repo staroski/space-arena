@@ -1,0 +1,25 @@
+module br {
+	module com {
+		module staroski {
+			module games {
+				module spacearena {
+					module server {
+						module corba {
+
+							interface EnergyItemProvider {
+							
+								void createNewItem();
+								
+								long long getId();
+								
+								long getEnergy();
+
+							};
+
+						};
+					};
+				};
+			};
+		};
+	};
+};

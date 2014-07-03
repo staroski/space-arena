@@ -1,0 +1,18 @@
+Para subir o servidor do jogo, execute as classes abaixo nesta ordem:
+
+	Subir servidor CORBA:
+		br.com.staroski.games.spacearena.server.corba.ItemProviderServer
+
+	Subir servidor RMI:
+		br.com.staroski.games.spacearena.server.rmi.StartupServer
+
+Para subir o cliente do jogo execute a classe abaixo:
+
+	br.com.staroski.games.spacearena.client.StartupClient
+	
+		No campo instancia, informe o valor da instance exibido ao executar o servidor RMI
+
+
+Obs:
+	O jogo usa a porta 8008, se houver problemas de permissão para acessar esta porta,
+	altere o valor da constante PORT na classe br.com.staroski.games.ObjectBinder
