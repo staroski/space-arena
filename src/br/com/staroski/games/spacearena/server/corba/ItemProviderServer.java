@@ -52,7 +52,7 @@ public class ItemProviderServer extends EnergyItemProviderPOA {
 			NameComponent path[] = namecontextRef.to_name(name);
 			namecontextRef.rebind(path, href);
 
-			System.out.println("Servidor corba no araguardando requisicoes ....");
+			System.out.println("Servidor corba aguardando requisicoes...");
 
 			// Aguarda chamadas dos clientes
 			orb.run();
