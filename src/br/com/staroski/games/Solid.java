@@ -2,7 +2,7 @@ package br.com.staroski.games;
 
 import java.rmi.*;
 
-public interface Solid {
+public interface Solid extends Remote {
 
 	Bounds getBounds() throws RemoteException;
 

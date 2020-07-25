@@ -2,7 +2,7 @@ package br.com.staroski.games;
 
 import java.rmi.*;
 
-public interface ClientListener {
+public interface ClientListener extends Remote {
 
 	void onInput() throws RemoteException;
 

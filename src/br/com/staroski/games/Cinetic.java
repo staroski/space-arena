@@ -2,7 +2,7 @@ package br.com.staroski.games;
 
 import java.rmi.*;
 
-public interface Cinetic {
+public interface Cinetic extends Remote {
 
 	double getAcceleration() throws RemoteException;
 
